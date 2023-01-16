@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+
 import bear1 from "../../img/농담곰018.jpg";
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import SimpleSlider from "../../components/SimpleSlider";
+
 const Main = () => {
   const navigate = useNavigate();
   const [currentTab, setCurrentTab] = useState(0);
@@ -33,17 +36,7 @@ const Main = () => {
     <>
       <Container>
         <ImgContainer>
-          <ImgSlice>
-            <Button> 오 </Button>
-            <ImgBox
-              onClick={() => {
-                navigate(`/Detail`);
-              }}
-            >
-              <Img src={bear1} alt="img" />
-            </ImgBox>
-            <Button> 왼 </Button>
-          </ImgSlice>
+          <SimpleSlider />
         </ImgContainer>
         <ContentContainer>
           <ContentBox>

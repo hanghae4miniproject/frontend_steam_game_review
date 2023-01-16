@@ -8,5 +8,10 @@ commit test
 라이브러리 목록
 ==============================_/
 
+//router
 yarn add react-router- dom
 yarn add styled-components
+
+//slick
+yarn add react-slick
+yarn add slick-carousel
