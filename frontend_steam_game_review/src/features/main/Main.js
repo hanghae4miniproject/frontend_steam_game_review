@@ -36,6 +36,7 @@ const Main = () => {
     <>
       <Container>
         <ImgContainer>
+          {/* 슬라이드 이미지 자리 */}
           <SimpleSlider />
         </ImgContainer>
         <ContentContainer>
