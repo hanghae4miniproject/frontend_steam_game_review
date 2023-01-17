@@ -4,7 +4,6 @@ import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import bear from "../img/농담곰018.jpg";
-
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
